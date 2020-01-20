@@ -1,0 +1,24 @@
+/* #mainContainer {
+    border: solid black 1px;
+    border-radius: 8px;
+} */
+
+.row {
+    border: solid black 1px;
+    border-radius: 8px;
+}
+
+#mainContainer {
+    padding: 20px;
+}
+
+form {
+    width: 80%;
+}
+
+#jumbo {
+    background: black;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
