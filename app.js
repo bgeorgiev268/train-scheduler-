@@ -1,6 +1,8 @@
 $(document).ready(function () {
     console.log("ready!");
     // Initialize Firebase
+
+    //Firebase Key
     var config = {
         apiKey: "AIzaSyCZk78ypU0Sq2nuvXMDEG1J_1tMj-v6pJ8",
         authDomain: "goblins-87011.firebaseapp.com",
@@ -8,6 +10,8 @@ $(document).ready(function () {
         projectId: "goblins-87011",
         storageBucket: "goblins-87011.appspot.com",
     };
+
+    //initializing firebase
     firebase.initializeApp(config);
     var database = firebase.database();
     $("#currentTime").text(moment().format('MMMM Do YYYY, h:mm:ss a'));
@@ -30,8 +34,6 @@ $(document).ready(function () {
             $(this).children(".next").text(nextTrain)
             $(this).children(".min").text(minutesAway)
 
-            /// calculate (moment)
-
         })
     }
 
@@ -49,7 +51,7 @@ $(document).ready(function () {
         }
         console.log(trainObj)
         database.ref().push(trainObj);
-        //   clears all text boxes
+        //   clears all text boxes / setting value attributes of elements
         $("#trainName").val("");
         $("#destination").val("");
         $("#trainTime").val("");
@@ -67,9 +69,6 @@ $(document).ready(function () {
         var nextTrain = moment().add(minutesAway, "minutes").format("hh:mm A")
 
 
-        /// calculate (moment)
-
-
 
         var tr = $("<tr class='trains' firt=" + snapshot.val().trainTime + " freq=" + frequency + ">");
         tr.append(
@@ -79,6 +78,8 @@ $(document).ready(function () {
             $("<td class='next'>").text(nextTrain),
             $("<td class='min'>").text(minutesAway),
         )
+
+        
         $("#tbody").append(tr)
 
     });
