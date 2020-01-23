@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    console.log("ready!");
     // Initialize Firebase
 
     //Firebase Key
@@ -42,7 +41,6 @@ $(document).ready(function () {
 
     $("#submit").on("click", function (event) {
         event.preventDefault();
-        console.log("HELLO WORLD");
         var trainObj = {
             trainName: $("#trainName").val(),
             destination: $("#destination").val(),
