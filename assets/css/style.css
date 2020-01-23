@@ -26,3 +26,7 @@ form {
     background-size: cover;
 }
 
+body {
+    background-image: url("/Users/bozhidargeorgiev/Desktop/Homework/train-scheduler-/assets/images/thumb-1920-672793.jpg");
+    color: aqua;
+}
