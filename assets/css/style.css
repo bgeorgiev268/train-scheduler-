@@ -21,12 +21,41 @@ form {
     color: white;
     text-align: center;
     border-radius: 8px;
-    background-image: url("assets/images/1339875.jpg");
+    background-image: url("../images/1339875.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 body {
-    background-image: url("assets/images/thumb-1920-672793.jpg");
+    background-image: url("../images/thumb-1920-672793.jpg");
     color: aqua;
 }
+
+.color {
+    color: aqua;
+}
+
+.card, .form-control {
+
+    background-color: rgba(255,255,255,0.2);
+
+}
+
+.submitbutton {
+        display: block;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 8px;
+        width: 80%;
+        max-width: 200px;
+        background: #fff; /* fallback color for old browsers */
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 8px;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        letter-spacing: 1px;
+        transition: all 0.3s ease-out;
+        
+}
+

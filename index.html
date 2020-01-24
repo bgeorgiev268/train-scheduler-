@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Timesheet</title>
+    <title>Train Time</title>
 </head>
 
 <body>
@@ -31,15 +31,15 @@
         </div>
         <div class="card row">
             <h5 class="card-header">Current Train scedule</h5>
-            <div class="card-body">
+            <div class="card-body " id="tp1">
                 <table class="table">
                     <thead>
                         <tr>
-                            <th>Train Name</th>
-                            <th>Destination</th>
-                            <th>Frequency (min)</th>
-                            <th>Next Arrival</th>
-                            <th>Minutes away</th>
+                            <th class="color">Train Name</th>
+                            <th class="color">Destination</th>
+                            <th class="color">Frequency (min)</th>
+                            <th class="color">Next Arrival</th>
+                            <th class="color">Minutes away</th>
                         </tr>
                     </thead>
                     <tbody id="tbody">
@@ -71,7 +71,7 @@
                     <label for="monthlyBilled">Frequency (min)</label>
                     <input role="form" class="form-control" id="frequency">
                 </div>
-                <input type="submit" id="submit" class="btn btn-primary">
+                <input type="submit" id="submit" class="submitbutton">
             </form>
         </div>
 
