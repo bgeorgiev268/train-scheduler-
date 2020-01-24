@@ -21,12 +21,12 @@ form {
     color: white;
     text-align: center;
     border-radius: 8px;
-    background-image: url("/Users/bozhidargeorgiev/Desktop/Homework/train-scheduler-/assets/images/204302894230.jpeg");
+    background-image: url("assets/images/1339875.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 body {
-    background-image: url("/Users/bozhidargeorgiev/Desktop/Homework/train-scheduler-/assets/images/thumb-1920-672793.jpg");
+    background-image: url("assets/images/thumb-1920-672793.jpg");
     color: aqua;
 }
