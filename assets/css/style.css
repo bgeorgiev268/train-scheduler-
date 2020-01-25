@@ -31,7 +31,7 @@ body {
     color: aqua;
 }
 
-.color {
+.color, .submitbutton, .pagetitle {
     color: aqua;
 }
 
@@ -49,7 +49,7 @@ body {
         width: 80%;
         max-width: 200px;
         background: #fff; /* fallback color for old browsers */
-        background: rgba(255, 255, 255, 0.5);
+        background: rgba(255, 255, 255, 0.2);
         border-radius: 8px;
         color: #fff;
         text-align: center;
@@ -66,3 +66,8 @@ body {
 td {
     color: aqua;
 }
+
+.submitbutton, .pagetitle {
+    color: aqua;
+}
+
