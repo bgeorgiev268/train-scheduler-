@@ -62,3 +62,7 @@ body {
 .fire {
     border: none;
 }
+
+td {
+    color: aqua;
+}
